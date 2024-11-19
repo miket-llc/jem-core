@@ -1,0 +1,5 @@
+import { coreFunction } from '../../src/index';
+
+test('coreFunction works', () => {
+  expect(coreFunction()).toBe(undefined);
+});
